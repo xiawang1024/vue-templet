@@ -1,12 +1,12 @@
 <template>
     <div class="end">
         <div class="logo ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
-		<div class="link-border">
-			<div class="link-btn"></div>
+		<div class="link-border ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.75s">
+			<div class="link-btn ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s"></div>
 		</div>
 		<div class="qr-wrap">
-			<img class="qr-app" src="../imgs/qr-app.png"/>
-			<div class="logo-app"></div>
+			<img class="qr-app ani" src="../imgs/qr-app.png" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="0s" />
+			<div class="logo-app ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1.25s" swiper-animate-delay="0s"></div>
 		</div>
     </div>
 </template>

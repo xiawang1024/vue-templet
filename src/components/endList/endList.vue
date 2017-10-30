@@ -1,14 +1,14 @@
 <template>
     <div class="end-list">
-        <div class="logo ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+        <div class="logo ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
         <div class="list-wrap">
             <div class="list" v-for="(item,index) in imgUrls" v-bind:key="index" @click="openLink(item.link_url)">
                 <img :src="item.icon_url" alt="" class="img">
             </div>
         </div>
         <div class="qr-wrap">
-			<img class="qr-app" src="../imgs/qr-app.png"/>
-			<div class="logo-app"></div>
+			<img class="qr-app ani" src="../imgs/qr-app.png" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="0s" />
+			<div class="logo-app ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1.25s" swiper-animate-delay="0s"></div>
 		</div>
     </div>
 </template>

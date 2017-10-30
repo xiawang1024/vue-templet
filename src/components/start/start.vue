@@ -1,20 +1,23 @@
 <template>
     <div class="start">
-        <div class="logo ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
-        <div class="cube-left"></div>
-        <div class="cube-right"></div>
-        <div class="line-left"></div>
-        <div class="line-right"></div>
+        <div class="star-1 ani" swiper-animate-effect="wxStar" swiper-animate-duration="1s" swiper-animate-delay="1.25s"></div>
+        <div class="star-2 ani" swiper-animate-effect="wxStar" swiper-animate-duration="0.75s" swiper-animate-delay="1.25s"></div>
+        <div class="star-3 ani" swiper-animate-effect="wxStar" swiper-animate-duration="0.75s" swiper-animate-delay="0.75s"></div>
+        <div class="logo ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+        <div class="cube-left ani" swiper-animate-effect="wxBangF" swiper-animate-duration="0.35s" swiper-animate-delay="0.9s"></div>
+        <div class="cube-right ani" swiper-animate-effect="wxBang" swiper-animate-duration="0.35s" swiper-animate-delay="0.9s"></div>
+        <div class="line-left ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="0.75s" swiper-animate-delay="0s"></div>
+        <div class="line-right ani" swiper-animate-effect="rotateInDownRight" swiper-animate-duration="0.75s" swiper-animate-delay="0s"></div>
         <div class="title-wrap">
-            <div class="border-1"></div>
-            <div class="border-2"></div>
-            <div class="radio-title">2018年河南人民广播电台</div>
-            <div class="title-text"></div>
-            <div class="channel-title">[&nbsp;&nbsp;新闻广播&nbsp;&nbsp;]</div>
+            <div class="border-1 ani" swiper-animate-effect="wxRotate" swiper-animate-duration="0.75s" swiper-animate-delay="0s"></div>
+            <div class="border-2 ani" swiper-animate-effect="wxRotatex" swiper-animate-duration="0.75s" swiper-animate-delay="0.2s"></div>
+            <div class="radio-title ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.75s" swiper-animate-delay="0.6s">2018年河南人民广播电台</div>
+            <div class="title-text ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.75s" swiper-animate-delay="0.9s"></div>
+            <div class="channel-title ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.75s" swiper-animate-delay="1.2s">[&nbsp;&nbsp;新闻广播&nbsp;&nbsp;]</div>
         </div>
         <div class="time-address">
-            <div class="titlec"></div>
-            <div class="time"></div>
+            <div class="titlec ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.75s" swiper-animate-delay="0.75s"></div>
+            <div class="time ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="0.75s"></div>
         </div>
     </div>
 </template>
@@ -30,6 +33,27 @@ export default {
 @import '~common/stylus/mixin.styl'
 .start
     fullpage()
+    .star-1
+        position absolute
+        top 200px
+        left 0
+        width 154px
+        height 80px
+        bgimage('./star.png',2.406rem)
+    .star-2
+        position absolute
+        bottom 500px
+        left 0
+        width 154px
+        height 80px
+        bgimage('./star.png',2.406rem)
+    .star-3
+        position absolute
+        bottom 120px
+        left 0
+        width 154px
+        height 80px
+        bgimage('./star.png',2.406rem)
     .logo
         position absolute
         top 30px
@@ -62,9 +86,9 @@ export default {
         position absolute
         top 0px
         right 0
-        width 116px
-        height 271px
-        bgimage('../imgs/line-right.png',1.81rem)
+        width 77px
+        height 180px
+        bgimage('../imgs/line-right.png',1.203rem)
     .title-wrap
         position absolute
         top 160px

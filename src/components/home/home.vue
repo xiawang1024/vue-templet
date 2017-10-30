@@ -6,6 +6,9 @@
                 <start></start>
             </div>
             <div class="swiper-slide">
+                <one></one>
+            </div>
+            <div class="swiper-slide">
                 <end></end>
             </div>
             <div class="swiper-slide">
@@ -15,14 +18,15 @@
     </div>
     <div class="up-icon"></div>
     <div class="audio-wrap" @click="toggle" :class="isPlay ? '' : 'isPause'">
-      <!-- <audio src="http://www.hndt.com/h5/promotion/static/mp3/mp3.mp3" class="audio" id="audio" autoplay loop></audio> -->
-      <audio src="http://www.hndt.com/h5/promotion/static/mp3/.mp3" class="audio" id="audio" autoplay loop></audio>
+      <audio src="http://www.hndt.com/h5/promotion/static/mp3/mp3.mp3" class="audio" id="audio" autoplay loop></audio>
+      <!-- <audio src="http://www.hndt.com/h5/promotion/static/mp3/.mp3" class="audio" id="audio" autoplay loop></audio> -->
     </div>
   </div>
 </template>
 
 <script>
 import Start from 'components/start/start'
+import One from 'components/one/one'
 import End from 'components/end/end'
 import EndList from 'components/endList/endList'
 
@@ -30,6 +34,7 @@ export default {
   name: "home",
   components:{
       Start,
+      One,
       End,
       EndList
   },
@@ -115,12 +120,12 @@ export default {
 .audio-wrap
     position absolute
     z-index 102400
-    top 50px
-    right 50px
-    width 80px
-    height 80px
+    top 30px
+    right 30px
+    width 60px
+    height 60px
     background url('./voice.svg') center center no-repeat
-    background-size 1rem auto
+    background-size 0.8rem auto
     animation rotate 2.5s linear infinite
     &.isPause
         -webkit-animation-play-state paused
