@@ -1,0 +1,136 @@
+<template>
+    <div class="start">
+        <div class="logo ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+        <div class="cube-left"></div>
+        <div class="cube-right"></div>
+        <div class="line-left"></div>
+        <div class="line-right"></div>
+        <div class="title-wrap">
+            <div class="border-1"></div>
+            <div class="border-2"></div>
+            <div class="radio-title">2018年河南人民广播电台</div>
+            <div class="title-text"></div>
+            <div class="channel-title">[&nbsp;&nbsp;新闻广播&nbsp;&nbsp;]</div>
+        </div>
+        <div class="time-address">
+            <div class="titlec"></div>
+            <div class="time"></div>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+    name:'start'
+}
+</script>
+
+
+<style lang="stylus" scoped>
+@import '~common/stylus/mixin.styl'
+.start
+    fullpage()
+    .logo
+        position absolute
+        top 30px
+        left 57px
+        width 202px
+        height 45px
+        bgimage('../imgs/logo.png',3.15rem)
+    .cube-left
+        position absolute
+        bottom 285px
+        left 40px
+        width 77px
+        height 166px
+        bgimage('../imgs/cube-left.png',1.2rem)
+    .cube-right
+        position absolute
+        top 180px
+        right 0
+        width 147px
+        height 214px
+        bgimage('../imgs/cube-right.png',2.3rem)
+    .line-left
+        position absolute
+        bottom 60px
+        left 0
+        width 91px
+        height 224px
+        bgimage('../imgs/line-left.png',1.42rem)
+    .line-right
+        position absolute
+        top 0px
+        right 0
+        width 116px
+        height 271px
+        bgimage('../imgs/line-right.png',1.81rem)
+    .title-wrap
+        position absolute
+        top 160px
+        left 50px
+        width 540px
+        height 526px
+        .border-1
+            position absolute
+            bottom 0
+            left 0
+            width 100%
+            height 100%
+            background url('../imgs/border-1.png') center bottom no-repeat
+            background-size 8.125rem auto
+        .border-2
+            position absolute
+            bottom 0
+            left 0
+            width 100%
+            height 100%
+            background url('../imgs/border-2.png') center top no-repeat
+            background-size 8.406rem auto
+        .radio-title
+            position absolute
+            top 134px
+            left 0
+            width 100%
+            text-align center
+            font-size 38px
+            color #ffffff
+            letter-spacing 0.14em
+        .title-text
+            position absolute
+            top 199px
+            left 0
+            width 100%
+            height 134px
+            bgimage('../imgs/title.png',6.58rem)
+        .channel-title
+            position absolute
+            top 346px
+            left 0
+            width 100%
+            text-align center
+            font-size 40px
+            color #ffffff
+            letter-spacing 0.14em
+    .time-address
+        position absolute
+        bottom 160px
+        left 199px
+        width 242px
+        height 92px
+        .titlec
+            position absolute
+            top 0
+            left 0
+            width 100%
+            height 32px
+            bgimage('../imgs/titlec.png',3.67rem)
+        .time
+            position absolute
+            bottom 0
+            left 0
+            width 100%
+            height 38px
+            bgimage('../imgs/time-address.png',3.78rem)
+</style>
+
