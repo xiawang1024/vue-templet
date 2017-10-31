@@ -9,6 +9,9 @@
                 <one></one>
             </div>
             <div class="swiper-slide">
+                <two></two>
+            </div>
+            <div class="swiper-slide">
                 <end></end>
             </div>
             <div class="swiper-slide">
@@ -27,6 +30,7 @@
 <script>
 import Start from 'components/start/start'
 import One from 'components/one/one'
+import Two from 'components/two/two'
 import End from 'components/end/end'
 import EndList from 'components/endList/endList'
 
@@ -35,6 +39,7 @@ export default {
   components:{
       Start,
       One,
+      Two,
       End,
       EndList
   },
