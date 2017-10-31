@@ -5,35 +5,35 @@
             <wx-title :titleUrl="titleUrl"></wx-title>
         </div>
         <div class="body">
-            <div class="line line-1"></div>
-            <div class="line line-2"></div>
+            <div class="line line-1 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.75s"></div>
+            <div class="line line-2 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.15s"></div>
             <div class="section section-1">
-                <div class="text">
+                <div class="text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.75s" swiper-animate-delay="0.5s">
                     新闻广播目前采用中波657、调频95.4、调频102.3三频发射
                 </div>
                 <div class="img-wrap">
-                    <div class="border"></div>
-                    <img src="http://www.hndt.com/fm/954/201710/23/1912900/res/dgr267l3.jpg?1508724845337" alt="" class="img">
+                    <div class="border ani" swiper-animate-effect="wxCircle" swiper-animate-duration="1.25s" swiper-animate-delay="2s"></div>
+                    <img src="http://www.hndt.com/fm/954/201710/23/1912900/res/dgr267l3.jpg?1508724845337" alt="" class="img ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
                 </div>
             </div>
             
             <div class="section section-2">                
                 <div class="img-wrap">
-                    <div class="border"></div>
-                    <img src="http://www.hndt.com/fm/954/201710/23/1912900/res/dgr267l3.jpg?1508724845337" alt="" class="img">
+                    <div class="border ani" swiper-animate-effect="wxCircle" swiper-animate-duration="1.25s" swiper-animate-delay="2s"></div>
+                    <img src="http://www.hndt.com/fm/954/201710/23/1912900/res/dgr267l3.jpg?1508724845337" alt="" class="img ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="1s">
                 </div>
-                <div class="text">
+                <div class="text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.75s" swiper-animate-delay="1s">
                     新闻广播目前采用中波657、调频95.4、调频102.3三频发射
                 </div>
             </div>
             
             <div class="section section-3">
-                <div class="text">
+                <div class="text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.75s" swiper-animate-delay="1.5s">
                     新闻广播目前采用中波657、调频95.4、调频102.3三频发射
                 </div>
                 <div class="img-wrap">
-                    <div class="border"></div>
-                    <img src="http://www.hndt.com/fm/954/201710/23/1912900/res/dgr267l3.jpg?1508724845337" alt="" class="img">
+                    <div class="border ani" swiper-animate-effect="wxCircle" swiper-animate-duration="1.25s" swiper-animate-delay="2s"></div>
+                    <img src="http://www.hndt.com/fm/954/201710/23/1912900/res/dgr267l3.jpg?1508724845337" alt="" class="img ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s">
                 </div>
             </div>
         </div>
@@ -124,7 +124,8 @@ export default {
                     left -30px
                     width 260px
                     height 260px
-                    bgimage('./pic-border.png',4.06rem)                
+                    bgimage('./pic-border.png',4.06rem)     
+                    opacity 0           
                 .img
                     position relative
                     display block
