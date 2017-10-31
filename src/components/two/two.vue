@@ -4,8 +4,13 @@
         <div class="hd">
             <wx-title :titleUrl="titleUrl"></wx-title>
         </div>
-        <div class="video-box">
+        <div class="video-box ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.75s">
             <wx-video :videoUrl="videoUrl"></wx-video>
+        </div>
+        <div class="body">
+            <p class="section ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="1s">
+                新闻广播目前采用中波657、调频95.4、调频102.3三频发射，全省覆盖率达96%以上。其中中波300千瓦的发射率，让新闻广播傲视群雄，响彻中原！
+            </p>
         </div>
     </div>
 </template>
@@ -54,4 +59,14 @@ export default {
         left 50px
         width 540px
         height 340px
+    .body
+        position absolute
+        top 610px
+        left 7%
+        width 86%
+        font-size 24px
+        color #ffffff
+        line-height 2
+        .section
+            text-indent 2em
 </style>

@@ -29,7 +29,7 @@ export default {
     height 50px
     .title-left
         position absolute
-        top 6px
+        top 10px
         left 180px
         width 136px
         height 13px
