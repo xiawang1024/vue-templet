@@ -1,7 +1,7 @@
 <template>
     <div class="end-list">
         <div class="logo ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
-        <div class="list-wrap">
+        <div class="list-wrap ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
             <div class="list" v-for="(item,index) in imgUrls" v-bind:key="index" @click="openLink(item.link_url)">
                 <img :src="item.icon_url" alt="" class="img">
             </div>
