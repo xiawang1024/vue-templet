@@ -15,7 +15,7 @@
                 <three></three>
             </div>
             <div class="swiper-slide">
-                <end></end>
+                <end @goToLink="goToLink"></end>
             </div>
             <div class="swiper-slide">
                 <end-list></end-list>
@@ -81,6 +81,9 @@ export default {
             this.audio.pause()
             this.isPlay = false
         }
+    },
+    goToLink () {
+        this.mySwiper.slideTo(5,500,true)
     }
   }
 };

@@ -1,7 +1,7 @@
 <template>
     <div class="end">
         <div class="logo ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
-		<div class="link-border ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.75s">
+		<div class="link-border ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.75s" @click="goToLink()">
 			<div class="link-btn ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s"></div>
 		</div>
 		<div class="qr-wrap">
@@ -13,7 +13,12 @@
 
 <script>
 export default {
-    name:'end'
+	name:'end',
+	methods:{
+		goToLink () {
+			this.$emit('goToLink')
+		}
+	}
 }
 </script>
 
