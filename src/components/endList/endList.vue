@@ -1,6 +1,6 @@
 <template>
     <div class="end-list">
-        <div class="logo ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+        <wx-logo :isShowChannelLogo="false"></wx-logo>
         <div class="list-wrap ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
             <div class="list" v-for="(item,index) in imgUrls" v-bind:key="index" @click="openLink(item.link_url)">
                 <img :src="item.icon_url" alt="" class="img">
@@ -14,6 +14,8 @@
 </template>
 
 <script>
+import wxLogo from 'base/logo/logo'
+
 const CHANNEL_LINK = [{
         name:'新闻广播',
         link: 'http://www.hndt.com'
@@ -65,6 +67,9 @@ const CHANNEL_LINK = [{
 ]
 export default {
     name:'end-list',
+    components:{
+        wxLogo
+    },
     data () {
         return {
             imgUrls:[],
@@ -94,16 +99,9 @@ export default {
 @import '~common/stylus/mixin.styl'
 .end-list
     fullpage()
-    .logo
-        position absolute
-        top 30px
-        left 57px
-        width 202px
-        height 45px
-        bgimage('../imgs/logo.png',3.15rem)
     .list-wrap
         position absolute
-        top 160px
+        top 140px
         left 78px
         width 484px
         display flex
@@ -122,7 +120,7 @@ export default {
         bottom 80px 
         left 235px
         width 170px
-        height 240px
+        height 230px
         .qr-app
             position absolute
             top 0

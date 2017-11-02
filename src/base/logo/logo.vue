@@ -1,7 +1,7 @@
 <template>
     <div class="logo-wrap">
         <div class="logo ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
-        <div class="channel_logo ani" :style="logoStyleObj" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+        <div v-show="isShowChannelLogo" class="channel_logo ani" :style="logoStyleObj" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
     </div>
 </template>
 
@@ -9,6 +9,12 @@
 import { CHANNEL_LOGO } from 'config/index'
 export default {
     name:'logo-wrap',
+    props : {
+        isShowChannelLogo:{
+            type:Boolean,
+            default:true
+        }
+    },
     data () {
         return {
             logoStyleObj:{
