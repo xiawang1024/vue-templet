@@ -14,15 +14,26 @@ const CHANNEL_VIDEO_TEXT_1 = '新闻广播目前采用中波657、调频95.4、�
 
 //three
 const CHANNEL_PICS = [{
-    text: '新闻广播目前采用中波657、调频95.4、调频102.3三频发射',
-    url: 'http://www.hndt.com/fm/954/201710/23/1912900/res/dgr267l3.jpg?1508724845337'
-}]
-
-//endList
-const CHANNEL_LINK = [{
-        link: 'http://www.hndt.com'
+        text: '新闻广播目前采用中波657、调频95.4、调频102.3三频发射',
+        url: 'http://www.hndt.com/fm/954/201710/23/1912900/res/dgr267l3.jpg?1508724845337'
     },
     {
-        link: 'http://www.hndt.com'
+        text: '新闻广播目前采用中波657、调频95.4、调频102.3三频发射',
+        url: 'http://www.hndt.com/fm/954/201710/10/1910157/res/lWcDphfg.jpg'
     },
+    {
+        text: '新闻广播目前采用中波657、调频95.4、调频102.3三频发射',
+        url: 'http://www.hndt.com/fm/954/201710/23/1912900/res/dgr267l3.jpg?1508724845337'
+    }
 ]
+
+
+export {
+    CHANNEL_TITLE,
+    CHANNEL_AUDIO,
+    CHANNEL_AUDIO_TEXT_1,
+    CHANNEL_AUDIO_TEXT_2,
+    CHANNEL_VIDEO,
+    CHANNEL_VIDEO_TEXT_1,
+    CHANNEL_PICS
+}

@@ -38,6 +38,7 @@ import Three from 'components/three/three'
 import End from 'components/end/end'
 import EndList from 'components/endList/endList'
 
+
 export default {
   name: "home",
   components:{

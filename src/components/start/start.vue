@@ -13,7 +13,7 @@
             <div class="border-2 ani" swiper-animate-effect="wxRotatex" swiper-animate-duration="0.75s" swiper-animate-delay="0.2s"></div>
             <div class="radio-title ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.75s" swiper-animate-delay="0.6s">2018年河南人民广播电台</div>
             <div class="title-text ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.75s" swiper-animate-delay="0.9s"></div>
-            <div class="channel-title ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.75s" swiper-animate-delay="1.2s">[&nbsp;&nbsp;新闻广播&nbsp;&nbsp;]</div>
+            <div class="channel-title ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.75s" swiper-animate-delay="1.2s">[&nbsp;&nbsp;{{channelTitle}}&nbsp;&nbsp;]</div>
         </div>
         <div class="time-address">
             <div class="titlec ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.75s" swiper-animate-delay="0.75s"></div>
@@ -23,8 +23,15 @@
 </template>
 
 <script>
+import { CHANNEL_TITLE } from 'config/index'
+
 export default {
-    name:'start'
+    name:'start',
+    data () {
+        return {
+            channelTitle:CHANNEL_TITLE
+        }
+    }
 }
 </script>
 

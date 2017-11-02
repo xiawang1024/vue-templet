@@ -9,7 +9,7 @@
         </div>
         <div class="body">
             <p class="section ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="1s">
-                新闻广播目前采用中波657、调频95.4、调频102.3三频发射，全省覆盖率达96%以上。其中中波300千瓦的发射率，让新闻广播傲视群雄，响彻中原！
+                {{text_1}}
             </p>
         </div>
     </div>
@@ -19,8 +19,9 @@
 import WxTitle from 'base/title/title.vue'
 import wxVideo from 'base/video/video.vue'
 
+import { CHANNEL_VIDEO, CHANNEL_VIDEO_TEXT_1 } from 'config/index'
+
 const titleUrl = require('./channel-title.png') 
-const videoUrl = 'http://www.hndt.com/fm/954/201708/07/1897761/res/1uTCq0ay.mp4'
 
 export default {
     name:'two',
@@ -31,7 +32,8 @@ export default {
     data () {
         return {
             titleUrl:titleUrl,
-            videoUrl:videoUrl
+            videoUrl:CHANNEL_VIDEO,
+            text_1:CHANNEL_VIDEO_TEXT_1
         }
     }
 }

@@ -9,31 +9,31 @@
             <div class="line line-2 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.15s"></div>
             <div class="section section-1">
                 <div class="text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.75s" swiper-animate-delay="0.5s">
-                    新闻广播目前采用中波657、调频95.4、调频102.3三频发射
+                    {{channelPics[0].text}}
                 </div>
                 <div class="img-wrap">
                     <div class="border ani" swiper-animate-effect="wxCircle" swiper-animate-duration="1.25s" swiper-animate-delay="2s"></div>
-                    <img src="http://www.hndt.com/fm/954/201710/23/1912900/res/dgr267l3.jpg?1508724845337" alt="" class="img ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+                    <img :src="channelPics[0].url" alt="" class="img ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
                 </div>
             </div>
             
             <div class="section section-2">                
                 <div class="img-wrap">
                     <div class="border ani" swiper-animate-effect="wxCircle" swiper-animate-duration="1.25s" swiper-animate-delay="2s"></div>
-                    <img src="http://www.hndt.com/fm/954/201710/23/1912900/res/dgr267l3.jpg?1508724845337" alt="" class="img ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="1s">
+                    <img :src="channelPics[1].url" alt="" class="img ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="1s">
                 </div>
                 <div class="text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.75s" swiper-animate-delay="1s">
-                    新闻广播目前采用中波657、调频95.4、调频102.3三频发射
+                    {{channelPics[1].text}}
                 </div>
             </div>
             
             <div class="section section-3">
                 <div class="text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.75s" swiper-animate-delay="1.5s">
-                    新闻广播目前采用中波657、调频95.4、调频102.3三频发射
+                    {{channelPics[2].text}}
                 </div>
                 <div class="img-wrap">
                     <div class="border ani" swiper-animate-effect="wxCircle" swiper-animate-duration="1.25s" swiper-animate-delay="2s"></div>
-                    <img src="http://www.hndt.com/fm/954/201710/23/1912900/res/dgr267l3.jpg?1508724845337" alt="" class="img ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s">
+                    <img :src="channelPics[2].url" alt="" class="img ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s">
                 </div>
             </div>
         </div>
@@ -42,6 +42,8 @@
 
 <script>
 import WxTitle from 'base/title/title.vue'
+
+import { CHANNEL_PICS } from 'config/index'
 
 const titleUrl = require('./active.png') 
 
@@ -52,7 +54,8 @@ export default {
     },
     data () {
         return {
-            titleUrl:titleUrl
+            titleUrl:titleUrl,
+            channelPics:CHANNEL_PICS
         }
     }
 }

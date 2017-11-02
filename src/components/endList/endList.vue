@@ -14,12 +14,61 @@
 </template>
 
 <script>
-// const 
+const CHANNEL_LINK = [{
+        name:'新闻广播',
+        link: 'http://www.hndt.com'
+    },
+    {
+        name:'交通广播',
+        link: 'http://www.hndt.com'
+    },
+    {
+        name:'戏曲广播',
+        link: 'http://www.hndt.com'
+    },
+    {
+        name:'音乐广播',
+        link: 'http://www.hndt.com'
+    },
+    {
+        name:'农村广播',
+        link: 'http://www.hndt.com'
+    },
+    {
+        name:'影视广播',
+        link: 'http://www.hndt.com'
+    },
+    {
+        name:'私家车广播',
+        link: 'http://www.hndt.com'
+    },
+    {
+        name:'教育广播',
+        link: 'http://www.hndt.com'
+    },
+    {
+        name:'乐龄1056',
+        link: 'http://www.hndt.com'
+    },
+    {
+        name:'天籁之音',
+        link: 'http://www.hndt.com'
+    },
+    {
+        name:'网络广播',
+        link: 'http://www.hndt.com'
+    },
+    {
+        name:'河南广播云平台',
+        link: 'http://www.hndt.com'
+    }
+]
 export default {
     name:'end-list',
     data () {
         return {
-            imgUrls:[]
+            imgUrls:[],
+            linkList:CHANNEL_LINK
         }
     },
     mounted () {
@@ -28,7 +77,7 @@ export default {
             let item = require('./link-' + index + '.png')
             this.imgUrls.push({
                 icon_url:item,
-                link_url:'http://www.hndt.com'
+                link_url:this.linkList[i].link
             })
         }
         this.$nextTick(() => {})

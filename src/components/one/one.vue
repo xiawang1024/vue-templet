@@ -9,10 +9,10 @@
         </div>
         <div class="body">
             <p class="section ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.2s">
-                新闻广播全天候贯穿整点新闻和服务资讯，是资讯的高地，民意的窗口，担负着党委政府政令传达、舆论引导的重要政治任务。主要听众为20岁-50岁的政府官员、企业管理者、公务员、白领、高校学者、知识分子。他们关注新闻，他们热爱活动，丰富及时的资讯使他们在运筹帷幄中更添自信和从容，新闻广播是受众收听倾向最为强烈的广播媒体之一。
+                {{text_1}}
             </p>
             <p class="section ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="1.2s">
-                新闻广播目前采用中波657、调频95.4、调频102.3三频发射，全省覆盖率达96%以上。其中中波300千瓦的发射率，让新闻广播傲视群雄，响彻中原！
+                {{text_2}}
             </p>
         </div>
     </div>
@@ -21,6 +21,8 @@
 <script>
 import WxTitle from 'base/title/title.vue'
 import Player from 'base/player/player.vue'
+
+import { CHANNEL_AUDIO, CHANNEL_AUDIO_TEXT_1, CHANNEL_AUDIO_TEXT_2 } from "config/index"
 
 const titleUrl = require('./about.png')
 
@@ -33,7 +35,9 @@ export default {
     data () {
         return {
             titleUrl:titleUrl,
-            audioUrl:'http://os5c06eeu.bkt.clouddn.com/%E5%86%8D%E8%A7%81%E4%BA%8C%E4%B8%81%E7%9B%AE.m4a'
+            audioUrl:CHANNEL_AUDIO,
+            text_1:CHANNEL_AUDIO_TEXT_1,
+            text_2:CHANNEL_AUDIO_TEXT_2
         }
     }
 }
