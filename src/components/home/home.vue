@@ -24,8 +24,7 @@
     </div>
     <div class="up-icon"></div>
     <div class="audio-wrap" @click="toggle" :class="isPlay ? '' : 'isPause'">
-      <audio src="http://www.hndt.com/h5/promotion/static/mp3/mp3.mp3" class="audio" id="audio" autoplay loop></audio>
-      <!-- <audio src="http://www.hndt.com/h5/promotion/static/mp3/.mp3" class="audio" id="audio" autoplay loop></audio> -->
+      <audio src="http://www.hndt.com/h5/promotion/static/mp3/mp3.mp3" class="audio" id="audio"  loop></audio>
     </div>
   </div>
 </template>
@@ -67,7 +66,8 @@ export default {
           }
       })
       this.audio = document.getElementById('audio')
-      document.addEventListener("touchstart", this._play(), false);
+      //autoPlay
+      //document.addEventListener("touchstart", this._play(), false);
     },20)
   },
   methods:{
@@ -132,6 +132,7 @@ export default {
     animation up 1.2s ease-in infinite 
     animation-delay 1.5s
 .audio-wrap
+    display none
     position absolute
     z-index 102400
     top 30px
