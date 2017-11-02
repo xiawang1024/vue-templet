@@ -1,6 +1,6 @@
 <template>
     <div class="video-wrap">
-        <video :src="videoUrl" id="wx-video" controls></video>
+        <video :src="videoUrl" id="wx-video" controls preload controlsList="nodownload"></video>
     </div>
 </template>
 

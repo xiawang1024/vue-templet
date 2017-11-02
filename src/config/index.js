@@ -1,5 +1,8 @@
 //配置文件
-//封面
+//channelLogo
+const logoIndex = 1
+const CHANNEL_LOGO = require(`../logo/${logoIndex}.png`)
+    //封面
 const CHANNEL_TITLE = '新闻广播';
 //one
 const CHANNEL_AUDIO = 'http://www.hndt.com/podcast/881/1026/201710/31/1914736/res/DXIxLN8m.mp3';
@@ -29,6 +32,7 @@ const CHANNEL_PICS = [{
 
 
 export {
+    CHANNEL_LOGO,
     CHANNEL_TITLE,
     CHANNEL_AUDIO,
     CHANNEL_AUDIO_TEXT_1,
