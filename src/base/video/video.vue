@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import Bus from 'event/index'
 export default {
     name:'video-wrap',
     props : {
@@ -12,6 +13,17 @@ export default {
             type:String,
             default:''
         }
+    },
+    mounted () {
+        setTimeout(() => {
+            this.video = document.getElementById('wx-video');
+            this.audio = document.getElementById('wx-audio');
+            this.video.addEventListener('play',() => {
+                this.audio.pause()
+                Bus.$emit('isPause',false)
+            })
+        },20)
+        
     }
 }
 </script>

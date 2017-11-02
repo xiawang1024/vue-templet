@@ -13,6 +13,7 @@
 </template>
 
 <script>
+import Bus from 'event/index'
 import ProgressBar from 'base/progressBar/progressBar.vue'
 export default {
     name:'player',
@@ -36,10 +37,18 @@ export default {
         percent() {
             return this.currentTime / this.duration;
         }
+        
     },
     mounted () {
         this.audio = document.getElementById('wx-audio');
+        this.video = document.getElementById('wx-video')
+        this.audio.addEventListener('play',() => {
+            this.video.pause()
+        })
         this.watchPlayPercent()
+        Bus.$on('isPause',(flag) => {
+            this.isPause = flag
+        })
     },
     methods:{
         playSwitch() {
