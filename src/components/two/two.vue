@@ -1,6 +1,6 @@
 <template>
     <div class="two">
-        <div class="logo ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+        <wx-logo></wx-logo>
         <div class="hd">
             <wx-title :titleUrl="titleUrl"></wx-title>
         </div>
@@ -16,6 +16,7 @@
 </template>
 
 <script>
+import wxLogo from 'base/logo/logo'
 import WxTitle from 'base/title/title.vue'
 import wxVideo from 'base/video/video.vue'
 
@@ -26,6 +27,7 @@ const titleUrl = require('./channel-title.png')
 export default {
     name:'two',
     components :{ 
+        wxLogo,
         WxTitle,
         wxVideo
     },
@@ -43,13 +45,6 @@ export default {
 @import '~common/stylus/mixin.styl'
 .two
     fullpage()
-    .logo
-        position absolute
-        top 30px
-        left 57px
-        width 202px
-        height 45px
-        bgimage('../imgs/logo.png',3.15rem)
     .hd
         position absolute
         top 130px
@@ -64,9 +59,9 @@ export default {
     .body
         position absolute
         top 610px
-        left 7%
-        width 86%
-        font-size 24px
+        left 10%
+        width 80%
+        font-size 28px
         color #ffffff
         line-height 2
         .section

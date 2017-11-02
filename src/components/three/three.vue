@@ -1,6 +1,6 @@
 <template>
     <div class="three">
-        <div class="logo ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+        <wx-logo></wx-logo>
         <div class="hd">
             <wx-title :titleUrl="titleUrl"></wx-title>
         </div>
@@ -41,6 +41,7 @@
 </template>
 
 <script>
+import wxLogo from 'base/logo/logo'
 import WxTitle from 'base/title/title.vue'
 
 import { CHANNEL_PICS } from 'config/index'
@@ -50,6 +51,7 @@ const titleUrl = require('./active.png')
 export default {
     name:'three',
     components:{
+        wxLogo,
         WxTitle
     },
     data () {
@@ -65,13 +67,6 @@ export default {
 @import '~common/stylus/mixin.styl'
 .three
     fullpage()
-    .logo
-        position absolute
-        top 30px
-        left 57px
-        width 202px
-        height 45px
-        bgimage('../imgs/logo.png',3.15rem)
     .hd
         position absolute
         top 130px
@@ -79,7 +74,7 @@ export default {
         height 50px
     .body
         position absolute
-        top 240px
+        top 230px
         left 40px
         width 560px
         height 645px
@@ -135,6 +130,6 @@ export default {
                     width 200px
                     height 200px
                     border-radius 50%
-                    border 3px solid #f4df99
+                    border 4px solid #f4df99
                     box-sizing border-box
 </style>

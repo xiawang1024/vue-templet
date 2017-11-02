@@ -3,7 +3,7 @@
         <div class="star-1 ani" swiper-animate-effect="wxStar" swiper-animate-duration="1s" swiper-animate-delay="1.25s"></div>
         <div class="star-2 ani" swiper-animate-effect="wxStar" swiper-animate-duration="0.75s" swiper-animate-delay="1.25s"></div>
         <div class="star-3 ani" swiper-animate-effect="wxStar" swiper-animate-duration="0.75s" swiper-animate-delay="0.75s"></div>
-        <div class="logo ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+        <wx-logo></wx-logo>
         <div class="cube-left ani" swiper-animate-effect="wxBangF" swiper-animate-duration="0.35s" swiper-animate-delay="0.9s"></div>
         <div class="cube-right ani" swiper-animate-effect="wxBang" swiper-animate-duration="0.35s" swiper-animate-delay="0.9s"></div>
         <div class="line-left ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="0.75s" swiper-animate-delay="0s"></div>
@@ -24,9 +24,13 @@
 
 <script>
 import { CHANNEL_TITLE } from 'config/index'
+import wxLogo from 'base/logo/logo'
 
 export default {
     name:'start',
+    components : {
+        wxLogo
+    },
     data () {
         return {
             channelTitle:CHANNEL_TITLE
@@ -61,13 +65,6 @@ export default {
         width 154px
         height 80px
         bgimage('./star.png',2.406rem)
-    .logo
-        position absolute
-        top 30px
-        left 57px
-        width 202px
-        height 45px
-        bgimage('../imgs/logo.png',3.15rem)
     .cube-left
         position absolute
         bottom 285px

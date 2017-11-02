@@ -1,6 +1,6 @@
 <template>
     <div class="one">
-        <div class="logo ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+        <wx-logo></wx-logo>
         <div class="hd">
             <wx-title :titleUrl="titleUrl"></wx-title>
         </div>
@@ -11,14 +11,16 @@
             <p class="section ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.2s">
                 {{text_1}}
             </p>
-            <p class="section ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="1.2s">
+            <!-- <p class="section ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="1.2s">
                 {{text_2}}
-            </p>
+            </p> -->
         </div>
     </div>
 </template>
 
 <script>
+import wxLogo from 'base/logo/logo'
+
 import WxTitle from 'base/title/title.vue'
 import Player from 'base/player/player.vue'
 
@@ -29,6 +31,7 @@ const titleUrl = require('./about.png')
 export default {
     name:'one',
     components:{
+        wxLogo,
         WxTitle,
         Player
     },
@@ -47,13 +50,6 @@ export default {
 @import '~common/stylus/mixin.styl'
 .one
     fullpage()
-    .logo
-        position absolute
-        top 30px
-        left 57px
-        width 202px
-        height 45px
-        bgimage('../imgs/logo.png',3.15rem)
     .hd
         position absolute
         top 130px
@@ -67,11 +63,11 @@ export default {
     .body
         position absolute
         top 330px
-        left 7%
-        width 86%
+        left 10%
+        width 80%
         // height 600px
         overflow auto
-        font-size 24px
+        font-size 28px
         color #ffffff
         line-height 2
         .section
