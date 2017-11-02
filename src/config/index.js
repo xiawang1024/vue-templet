@@ -2,7 +2,7 @@
 //封面
 const CHANNEL_TITLE = '新闻广播';
 //one
-const CHANNEL_AUDIO = 'http://os5c06eeu.bkt.clouddn.com/%E5%86%8D%E8%A7%81%E4%BA%8C%E4%B8%81%E7%9B%AE.m4a';
+const CHANNEL_AUDIO = 'http://www.hndt.com/podcast/881/1026/201710/31/1914736/res/DXIxLN8m.mp3';
 
 const CHANNEL_AUDIO_TEXT_1 = '新闻广播全天候贯穿整点新闻和服务资讯，是资讯的高地，民意的窗口，担负着党委政府政令传达、舆论引导的重要政治任务。主要听众为20岁-50岁的政府官员、企业管理者、公务员、白领、高校学者、知识分子。他们关注新闻，他们热爱活动，丰富及时的资讯使他们在运筹帷幄中更添自信和从容，新闻广播是受众收听倾向最为强烈的广播媒体之一。';
 
