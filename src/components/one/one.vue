@@ -11,9 +11,9 @@
             <p class="section ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.2s">
                 {{text_1}}
             </p>
-            <!-- <p class="section ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="1.2s">
+            <p class="section ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="1.2s">
                 {{text_2}}
-            </p> -->
+            </p>
         </div>
     </div>
 </template>

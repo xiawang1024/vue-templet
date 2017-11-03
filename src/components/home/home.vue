@@ -11,8 +11,11 @@
             <div class="swiper-slide">
                 <two></two>
             </div>
-             <div class="swiper-slide">
+            <div class="swiper-slide">
                 <three></three>
+            </div>
+            <div class="swiper-slide">
+                <four></four>
             </div>
             <div class="swiper-slide">
                 <end @goToLink="goToLink"></end>
@@ -34,6 +37,7 @@ import Start from 'components/start/start'
 import One from 'components/one/one'
 import Two from 'components/two/two'
 import Three from 'components/three/three'
+import Four from 'components/four/four'
 import End from 'components/end/end'
 import EndList from 'components/endList/endList'
 
@@ -45,6 +49,7 @@ export default {
       One,
       Two,
       Three,
+      Four,
       End,
       EndList
   },
@@ -84,7 +89,7 @@ export default {
         }
     },
     goToLink () {
-        this.mySwiper.slideTo(5,500,true)
+        this.mySwiper.slideNext(true,600)
     }
   }
 };
