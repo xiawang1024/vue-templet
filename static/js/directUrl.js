@@ -1,6 +1,6 @@
  ! function() {
      if (!getQueryString('openId')) {
-         window.location = "http://a.weixin.hndt.com/wx/openid?cate=person&back=http://hndt.com/h5/sign/index.html";
+         window.location = "http://a.weixin.hndt.com/wx/openid?cate=person&back=http://hndt.com/h5/shows/01/index.html";
      }
 
      function getQueryString(name) {
