@@ -2,7 +2,7 @@
   <div class="home">
     <div class="swiper-container" ref="swiper">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
                 <start></start>
             </div>
             <div class="swiper-slide">
@@ -19,38 +19,38 @@
             </div>
             <div class="swiper-slide">
                 <end @goToLink="goToLink"></end>
-            </div>
+            </div> -->
             <div class="swiper-slide">
                 <end-list></end-list>
             </div>
         </div>
     </div>
-    <div class="up-icon"></div>
+    <!-- <div class="up-icon"></div>
     <div class="audio-wrap" @click="toggle" :class="isPlay ? '' : 'isPause'">
       <audio src="http://www.hndt.com/h5/promotion/static/mp3/mp3.mp3" class="audio" id="audio"  loop></audio>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
-import Start from 'components/start/start'
-import One from 'components/one/one'
-import Two from 'components/two/two'
-import Three from 'components/three/three'
-import Four from 'components/four/four'
-import End from 'components/end/end'
+// import Start from 'components/start/start'
+// import One from 'components/one/one'
+// import Two from 'components/two/two'
+// import Three from 'components/three/three'
+// import Four from 'components/four/four'
+// import End from 'components/end/end'
 import EndList from 'components/endList/endList'
 
 
 export default {
   name: "home",
   components:{
-      Start,
-      One,
-      Two,
-      Three,
-      Four,
-      End,
+    //   Start,
+    //   One,
+    //   Two,
+    //   Three,
+    //   Four,
+    //   End,
       EndList
   },
   data () {
@@ -59,38 +59,38 @@ export default {
     }
   },
   mounted() {
-    setTimeout(() => {
-      this.mySwiper = new Swiper('.swiper-container', {
-          direction : 'vertical',
-          onInit: function(swiper) {
-              swiperAnimateCache(swiper);
-              swiperAnimate(swiper);
-          },
-          onSlideChangeEnd: function(swiper) {
-              swiperAnimate(swiper);
-          }
-      })
-      this.audio = document.getElementById('audio')
-      //autoPlay
-      //document.addEventListener("touchstart", this._play(), false);
-    },20)
+    // setTimeout(() => {
+    //   this.mySwiper = new Swiper('.swiper-container', {
+    //       direction : 'vertical',
+    //       onInit: function(swiper) {
+    //           swiperAnimateCache(swiper);
+    //           swiperAnimate(swiper);
+    //       },
+    //       onSlideChangeEnd: function(swiper) {
+    //           swiperAnimate(swiper);
+    //       }
+    //   })
+    //   this.audio = document.getElementById('audio')
+    //   //autoPlay
+    //   //document.addEventListener("touchstart", this._play(), false);
+    // },20)
   },
   methods:{
-    _play() {
-        this.audio.play()
-    },
-    toggle() {
-        if(this.audio.paused){
-            this.audio.play()
-            this.isPlay = true
-        }else{
-            this.audio.pause()
-            this.isPlay = false
-        }
-    },
-    goToLink () {
-        this.mySwiper.slideNext(true,600)
-    }
+    // _play() {
+    //     this.audio.play()
+    // },
+    // toggle() {
+    //     if(this.audio.paused){
+    //         this.audio.play()
+    //         this.isPlay = true
+    //     }else{
+    //         this.audio.pause()
+    //         this.isPlay = false
+    //     }
+    // },
+    // goToLink () {
+    //     this.mySwiper.slideNext(true,600)
+    // }
   }
 };
 </script>
