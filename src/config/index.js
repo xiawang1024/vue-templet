@@ -1,48 +1,50 @@
 //配置文件
 //channelLogo
-const logoIndex = 2
+const logoIndex = 3
 const CHANNEL_LOGO = require(`../logo/${logoIndex}.png`)
     //封面
-const CHANNEL_TITLE = '河南交通广播';
+const CHANNEL_TITLE = '河南戏曲广播';
 //one
 const CHANNEL_AUDIO = 'http://www.hndt.com/podcast/881/1026/201710/31/1914736/res/DXIxLN8m.mp3';
 
-const CHANNEL_AUDIO_TEXT_1 = '河南交通广播是一家融合FM104.1、交广融媒客户端、微信、微博、视频为一体的全媒体平台，是河南省应急广播、全国青年文明号、爱心广播。团队的核心价值观是责任和快乐，旨在为受众提供准确真实的交通信息和愉悦欢快的行车享受，是全国首家拥有应急直升机的广播媒体；全国首家完成客户端融资的广播媒体；全国首家拥有7名无人机机长的媒体；河南首家24小时视频直播广播媒体。FM104.1河南交通广播，伴你出行每一刻。';
+const CHANNEL_AUDIO_TEXT_1 = '“娱乐976”前身为河南电台戏曲广播，2014年元月1日转型改主打娱乐，拥有巨大的影响力：2016年5月 72小时好戏唱不停•挑战世界纪录；2016年9月 中国豫剧首创吉尼斯世界纪录；连续两届“河之南”文化娱乐风尚盛典；公益品牌“大石桥有戏”“福塔有戏”“欧安乐龄有戏”已成功举办150余期，累计观众100万＋；开拍“中原历史文化名人少儿系列剧”；成立“月阳工作室”......';
+
 
 const CHANNEL_AUDIO_TEXT_2 = '';
 
 //two
-const CHANNEL_VIDEO = 'http://www.hndt.com/fm/1041/201708/07/1897783/res/56wk2eCe.mp4';
+const CHANNEL_VIDEO = 'http://www.hndt.com/fm/976/201708/07/1897785/res/NPvFUuAS.mp4';
 
-const CHANNEL_VIDEO_TEXT_1 = '大型原创文化品牌河南优放音乐节、汽车UP实力榜、最美乡村教师等活动，大台气度，媒体担当。从“爱心送考”到登山节”“文明出行”“1041旅行品牌”等品牌活动，超过十万人参与，持续举办超过10届。是河南省内唯一创收过亿的电台。';
+const CHANNEL_VIDEO_TEXT_1 = '娱乐广播转型至今在社会上产生广泛影响。赛立信数据调查显示：娱乐976全省收听率稳居前五；而郑州地区车载收听调查权威公司尼尔森调查显示：娱乐976排名进入前十。';
+
 
 //three
 const CHANNEL_PICS = [{
-        text: 'FM104.1文明出行系列活动第五季飞行棋派发—濮阳站',
-        url: 'http://www.hndt.com/fm/1041/201710/23/1912933/res/PLvJ6Ba8.jpg?1508728235765'
+        text: '月阳工作室一周岁啦！“好戏连台”邀您品赏祥符陈韵！',
+        url: 'http://www.hndt.com/fm/976/201708/11/1898681/res/ykIhMokA.jpg'
     },
     {
-        text: '交广DJ送福利！这东西整箱整箱送！你收到了吗？',
-        url: 'http://www.hndt.com/fm/1041/201710/12/1910741/res/rxL965Zm.jpg?1507793978526'
+        text: '豫南曲剧名丑要来欧安乐龄有戏，本周六看曲剧经典《三子争父》',
+        url: 'http://www.hndt.com/fm/976/201711/02/1915091/res/lnjm54yM.jpg'
     },
     {
-        text: 'FM104.1携手爱心企业，关爱交警健康',
-        url: 'http://www.hndt.com/fm/1041/201710/12/1910733/res/0yunImdg.jpg?1507791761829'
+        text: '976福塔有戏 & 中原百姓大舞台|这个重阳节，好戏连台等您来',
+        url: 'http://www.hndt.com/fm/976/201710/30/1914285/res/NDk3PmY8.jpg'
     }
 ]
 
 //four
 const CHANNEL_PICS_2 = [{
-        text: '河南交通广播“好想你”红枣采摘节',
-        url: 'http://www.hndt.com/fm/1041/201708/30/1902308/res/isTGdJg4.jpg?1504062157269'
+        text: '坠剧《小姑贤》“引爆”欧安乐龄有戏，内黄女笑星情牵郑州戏迷',
+        url: 'http://www.hndt.com/fm/976/201710/19/1912307/res/RMIczlOo.jpg'
     },
     {
-        text: '美丽河南—探秘“最美红叶基地”',
-        url: 'http://www.hndt.com/fm/1041/201710/30/1914335/res/X9rDZYhx.jpg'
+        text: '我听广播看大戏|《泪洒相思地》王怜娟被逼跳入西湖还是太湖内',
+        url: 'http://www.hndt.com/fm/976/201710/11/1910275/res/RZFo9Ace.jpg'
     },
     {
-        text: '【阳光探店】金汤的酸菜鱼，这酸爽才够味儿！',
-        url: 'http://www.hndt.com/fm/1041/201710/26/1913835/res/8gL4xeUZ.jpg'
+        text: '爱心少年行-爱逗小天使走进郑州儿童福利院',
+        url: 'http://www.hndt.com/fm/976/201708/24/1901092/res/EWvT0FsG.jpg'
     }
 ]
 
