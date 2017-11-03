@@ -1,6 +1,6 @@
 window.onload = function() {
     var TITLE = '2018推介会'
-    var LINK = 'http://hndt.com/h5/vlive/index.html'
+    var LINK = 'http://hndt.com/h5/shows/10/index.html'
     var IMGURL = 'http://hndt.com/res/logo_300.png'
     var DESC = '2018河南广播电视台广播品牌推介会'
 
