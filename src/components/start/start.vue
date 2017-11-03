@@ -11,7 +11,7 @@
         <div class="title-wrap">
             <div class="border-1 ani" swiper-animate-effect="wxRotate" swiper-animate-duration="0.75s" swiper-animate-delay="0s"></div>
             <div class="border-2 ani" swiper-animate-effect="wxRotatex" swiper-animate-duration="0.75s" swiper-animate-delay="0.2s"></div>
-            <div class="radio-title ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.75s" swiper-animate-delay="0.6s">2018年河南人民广播电台</div>
+            <div class="radio-title ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.75s" swiper-animate-delay="0.6s">2018河南广播电视台广播品牌</div>
             <div class="title-text ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.75s" swiper-animate-delay="0.9s"></div>
             <div class="channel-title ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0.75s" swiper-animate-delay="1.2s">[&nbsp;&nbsp;{{channelTitle}}&nbsp;&nbsp;]</div>
         </div>
@@ -117,16 +117,17 @@ export default {
             background-size 8.406rem auto
         .radio-title
             position absolute
-            top 134px
+            top 135px
             left 0
             width 100%
             text-align center
-            font-size 38px
+            font-size 36px
             color #ffffff
-            letter-spacing 0.14em
+            letter-spacing 0.1em
+            white-space nowrap
         .title-text
             position absolute
-            top 199px
+            top 192px
             left 0
             width 100%
             height 134px
