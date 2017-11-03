@@ -11,6 +11,9 @@
             <div class="swiper-slide">
                 <two></two>
             </div>
+            <div class="swiper-slide">
+                <two-one></two-one>
+            </div>
              <div class="swiper-slide">
                 <three></three>
             </div>
@@ -36,6 +39,7 @@
 import Start from 'components/start/start'
 import One from 'components/one/one'
 import Two from 'components/two/two'
+import TwoOne from 'components/twoOne/twoOne'
 import Three from 'components/three/three'
 import Four from 'components/four/four'
 import End from 'components/end/end'
@@ -48,6 +52,7 @@ export default {
       Start,
       One,
       Two,
+      TwoOne,
       Three,
       Four,
       End,
