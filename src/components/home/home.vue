@@ -94,7 +94,7 @@ export default {
         }
     },
     goToLink () {
-        this.mySwiper.slideTo(5,500,true)
+        this.mySwiper.slideNext(true,600)
     }
   }
 };

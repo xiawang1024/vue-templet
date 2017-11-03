@@ -18,51 +18,51 @@ import wxLogo from 'base/logo/logo'
 
 const CHANNEL_LINK = [{
         name:'新闻广播',
-        link: 'http://www.hndt.com'
+        link: 'http://hndt.com/h5/shows/01/index.html'
     },
     {
         name:'交通广播',
-        link: 'http://www.hndt.com'
+        link: 'http://hndt.com/h5/shows/02/index.html'
     },
     {
         name:'戏曲广播',
-        link: 'http://www.hndt.com'
+        link: 'http://hndt.com/h5/shows/03/index.html'
     },
     {
         name:'音乐广播',
-        link: 'http://www.hndt.com'
+        link: 'http://hndt.com/h5/shows/04/index.html'
     },
     {
         name:'农村广播',
-        link: 'http://www.hndt.com'
+        link: 'http://hndt.com/h5/shows/05/index.html'
     },
     {
         name:'影视广播',
-        link: 'http://www.hndt.com'
+        link: 'http://hndt.com/h5/shows/06/index.html'
     },
     {
         name:'私家车广播',
-        link: 'http://www.hndt.com'
+        link: 'http://hndt.com/h5/shows/07/index.html'
     },
     {
         name:'教育广播',
-        link: 'http://www.hndt.com'
+        link: 'http://hndt.com/h5/shows/08/index.html'
     },
     {
         name:'乐龄1056',
-        link: 'http://www.hndt.com'
+        link: 'http://hndt.com/h5/shows/09/index.html'
     },
     {
         name:'天籁之音',
-        link: 'http://www.hndt.com'
+        link: 'http://hndt.com/h5/shows/10/index.html'
     },
     {
         name:'网络广播',
-        link: 'http://www.hndt.com'
+        link: 'http://hndt.com/h5/shows/11/index.html'
     },
     {
         name:'河南广播云平台',
-        link: 'http://www.hndt.com'
+        link: 'http://hndt.com/h5/shows/12/index.html'
     }
 ]
 export default {

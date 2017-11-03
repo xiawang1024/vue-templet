@@ -12,7 +12,7 @@ const CHANNEL_AUDIO_TEXT_1 = '开播于2004年4月10日的My Radio是覆盖河�
 const CHANNEL_AUDIO_TEXT_2 = '';
 
 //two
-const CHANNEL_VIDEO = 'http://hndt.com/h5/shows/06/videos/1.mp4';
+const CHANNEL_VIDEO = 'http://hndt.com/fm/900/201708/07/1897789/res/xGGUNxmt.mp4';
 
 const CHANNEL_VIDEO_TEXT_1 = '24小时流行音乐不间断播出，节目以单元化、碎片化的轮盘状态呈现，成为听众无压力、最亲密的声音陪伴者。';
 
