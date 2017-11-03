@@ -99,6 +99,9 @@ export default {
 @import '~common/stylus/mixin.styl'
 .end-list
     fullpage()
+    width 640px
+    margin 0 auto
+    position relative
     .list-wrap
         position absolute
         top 140px

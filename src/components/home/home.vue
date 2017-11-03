@@ -1,8 +1,9 @@
 <template>
   <div class="home">
-    <div class="swiper-container" ref="swiper">
+      <end-list></end-list>
+    <!-- <div class="swiper-container" ref="swiper">
         <div class="swiper-wrapper">
-            <!-- <div class="swiper-slide">
+            <div class="swiper-slide">
                 <start></start>
             </div>
             <div class="swiper-slide">
@@ -19,12 +20,12 @@
             </div>
             <div class="swiper-slide">
                 <end @goToLink="goToLink"></end>
-            </div> -->
+            </div>
             <div class="swiper-slide">
-                <end-list></end-list>
+                
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- <div class="up-icon"></div>
     <div class="audio-wrap" @click="toggle" :class="isPlay ? '' : 'isPause'">
       <audio src="http://www.hndt.com/h5/promotion/static/mp3/mp3.mp3" class="audio" id="audio"  loop></audio>
@@ -97,6 +98,14 @@ export default {
 
 <style lang="stylus" scoped>
 @import '~common/stylus/mixin.styl'
+.home
+    position absolute
+    top 0
+    left 0
+    right 0
+    bottom 0
+    width 100%
+    height 100%
 @keyframes rotate 
     0%
         transform rotate(0)
