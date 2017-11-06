@@ -1,6 +1,6 @@
 //配置文件
 //channelLogo
-const logoIndex = 5
+const logoIndex = 6
 const CHANNEL_LOGO = require(`../logo/${logoIndex}.png`)
     //封面
 const CHANNEL_TITLE = '农村广播';
@@ -12,7 +12,7 @@ const CHANNEL_AUDIO_TEXT_1 = '农村广播是国家批准的政策性广播、�
 const CHANNEL_AUDIO_TEXT_2 = '';
 
 //two
-const CHANNEL_VIDEO = 'http://www.hndt.com/fm/1074/201708/07/1897788/res/u9M50TSH.mp4';
+const CHANNEL_VIDEO = 'http://www.hndt.com/h5/shows/06/videos/1.mp4';
 
 const CHANNEL_VIDEO_TEXT_1 = '10多年来，农村广播紧扣“三农”需求，强化“农”字招牌，成为城乡农民生产生活的好帮手、好顾问、好参谋，为推动我省农业发展、社会和谐、建设美丽富裕新农村做出应有贡献。';
 
