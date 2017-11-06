@@ -3,7 +3,7 @@
 const logoIndex = 9
 const CHANNEL_LOGO = require(`../logo/${logoIndex}.png`)
     //封面
-const CHANNEL_TITLE = '乐龄105.6';
+const CHANNEL_TITLE = '乐龄广播';
 //one
 const CHANNEL_AUDIO = 'http://www.hndt.com/podcast/881/1026/201710/31/1914736/res/DXIxLN8m.mp3';
 
@@ -12,7 +12,7 @@ const CHANNEL_AUDIO_TEXT_1 = '河南广播电视台信息广播（FM105.6/AM603�
 const CHANNEL_AUDIO_TEXT_2 = '2015年7月，信息广播改版升级为信息广播“乐龄105.6”，开创全国省级中老年广播先河。';
 
 //two
-const CHANNEL_VIDEO = '';
+const CHANNEL_VIDEO = 'http://www.hndt.com/h5/shows/09/videos/1.mp4';
 
 const CHANNEL_VIDEO_TEXT_1 = '以“点亮多彩生活，陪伴不老青春”为口号，以“年轻态”为频率风格主调，全方位打造国内中老年广播第一品牌。“乐龄105.6”节目设置以“新闻资讯、生活服务、文艺娱乐”为主线，从生活保障、文化娱乐，到精神抚慰、时尚引导，全方位服务中老年人群。';
 
