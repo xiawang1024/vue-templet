@@ -3,7 +3,7 @@
 const logoIndex = 3
 const CHANNEL_LOGO = require(`../logo/${logoIndex}.png`)
     //封面
-const CHANNEL_TITLE = '河南戏曲广播';
+const CHANNEL_TITLE = '戏曲广播';
 //one
 const CHANNEL_AUDIO = 'http://www.hndt.com/podcast/881/1026/201710/31/1914736/res/DXIxLN8m.mp3';
 
@@ -13,7 +13,7 @@ const CHANNEL_AUDIO_TEXT_1 = '“娱乐976”前身为河南电台戏曲广播�
 const CHANNEL_AUDIO_TEXT_2 = '';
 
 //two
-const CHANNEL_VIDEO = 'http://www.hndt.com/fm/976/201708/07/1897785/res/NPvFUuAS.mp4';
+const CHANNEL_VIDEO = 'http://www.hndt.com/h5/shows/03/videos/1.mp4';
 
 const CHANNEL_VIDEO_TEXT_1 = '娱乐广播转型至今在社会上产生广泛影响。赛立信数据调查显示：娱乐976全省收听率稳居前五；而郑州地区车载收听调查权威公司尼尔森调查显示：娱乐976排名进入前十。';
 
