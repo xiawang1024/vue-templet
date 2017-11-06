@@ -1,15 +1,15 @@
 //配置文件
 //channelLogo
-const logoIndex = 5
+const logoIndex = 1
 const CHANNEL_LOGO = require(`../logo/${logoIndex}.png`)
     //封面
-const CHANNEL_TITLE = '农村广播';
+const CHANNEL_TITLE = '网络广播';
 //one
 const CHANNEL_AUDIO = 'http://www.hndt.com/podcast/881/1026/201710/31/1914736/res/DXIxLN8m.mp3';
 
-const CHANNEL_AUDIO_TEXT_1 = '农村广播是国家批准的政策性广播、公益性媒体。2015年9月1日全新改版，定位于“沟通城乡，服务三农”，服务城乡居民生产生活每一天。农村广播以互联网新媒体思维办节目，节目不但形式新颖，服务性、权威性强，而且线上节目播出，线下活动带动，节目一次采集、多元生成、多平台传播，是河南惟一一家面向“ 三农”、 专业服务7000万城乡人口的专业电台。';
+const CHANNEL_AUDIO_TEXT_1 = '“网络广播”是传统广播服务及品牌在移动互联网上的细分裂变，其核心价值是情景化的陪伴收听，核心商业模式价值空间是“车载”。';
 
-const CHANNEL_AUDIO_TEXT_2 = '';
+const CHANNEL_AUDIO_TEXT_2 = '目前我中心拥有互联网电台10套，日均收听量数十万人次，入驻蜻蜓、 喜马拉雅、 多听、 优听、 中国广播等音频平台， 与小米盒子、 主流智能车载终端保持深度合作， 多平台全网播发。';
 
 //two
 const CHANNEL_VIDEO = 'http://www.hndt.com/fm/1074/201708/07/1897788/res/u9M50TSH.mp4';
