@@ -33,11 +33,11 @@ const CHANNEL_LINK = [{
         link: 'http://hndt.com/h5/shows/04/index.html'
     },
     {
-        name:'农村广播',
+        name:'影视广播',
         link: 'http://hndt.com/h5/shows/05/index.html'
     },
     {
-        name:'影视广播',
+        name:'农村广播',
         link: 'http://hndt.com/h5/shows/06/index.html'
     },
     {

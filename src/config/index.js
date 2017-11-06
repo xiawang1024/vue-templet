@@ -3,7 +3,7 @@
 const logoIndex = 4
 const CHANNEL_LOGO = require(`../logo/${logoIndex}.png`)
     //封面
-const CHANNEL_TITLE = '河南音乐广播';
+const CHANNEL_TITLE = '音乐广播';
 //one
 const CHANNEL_AUDIO = 'http://www.hndt.com/podcast/881/1026/201710/31/1914736/res/DXIxLN8m.mp3';
 
@@ -12,7 +12,7 @@ const CHANNEL_AUDIO_TEXT_1 = '从黑胶唱片出发，走过卡带岁月，经�
 const CHANNEL_AUDIO_TEXT_2 = '';
 
 //two
-const CHANNEL_VIDEO = 'http://www.hndt.com/fm/881/201708/07/1897786/res/CfRuH4bI.mp4';
+const CHANNEL_VIDEO = 'http://www.hndt.com/h5/shows/04/videos/1.mp4';
 
 const CHANNEL_VIDEO_TEXT_1 = '魅力881音乐广播，已实现全省覆盖：郑州/开封/漯河/周口/三门峡市市[FM88.1]；新乡市 [FM88.5]；南阳市[FM88.8]；洛阳市/焦作市[FM89.7]；鹤壁市/濮阳市[FM95.0];驻马店市/信阳市/平顶山市[FM95.8]；安阳市[FM98.3]； 许昌市[FM100.4]。';
 
