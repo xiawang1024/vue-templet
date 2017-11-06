@@ -12,7 +12,7 @@ const CHANNEL_AUDIO_TEXT_1 = '私家车广播是隶属于河南广播电视台�
 const CHANNEL_AUDIO_TEXT_2 = '私家车广播是一家有品位、有追求、有责任、有影响的省级电台。';
 
 //two
-const CHANNEL_VIDEO = 'http://hndt.com/fm/999/201708/07/1897791/res/kXhacpsr.mp4';
+const CHANNEL_VIDEO = 'http://hndt.com/h5/shows/07/videos/1.mp4';
 
 const CHANNEL_VIDEO_TEXT_1 = '高速发展的城市交通、日益壮大的私家车人群，使广播再现辉煌，重回强势媒体的同时，催生了“私家车广播FM99.9”，成为我省广播史上第一个定位私家车的广播频率。';
 
