@@ -3,7 +3,7 @@
 const logoIndex = 2
 const CHANNEL_LOGO = require(`../logo/${logoIndex}.png`)
     //封面
-const CHANNEL_TITLE = '河南交通广播';
+const CHANNEL_TITLE = '交通广播';
 //one
 const CHANNEL_AUDIO = 'http://www.hndt.com/podcast/881/1026/201710/31/1914736/res/DXIxLN8m.mp3';
 
@@ -12,7 +12,8 @@ const CHANNEL_AUDIO_TEXT_1 = '河南交通广播是一家融合FM104.1、交广�
 const CHANNEL_AUDIO_TEXT_2 = '';
 
 //two
-const CHANNEL_VIDEO = 'http://www.hndt.com/fm/1041/201708/07/1897783/res/56wk2eCe.mp4';
+const CHANNEL_VIDEO = 'http://www.hndt.com/h5/shows/02/videos/1.mp4';
+
 
 const CHANNEL_VIDEO_TEXT_1 = '大型原创文化品牌河南优放音乐节、汽车UP实力榜、最美乡村教师等活动，大台气度，媒体担当。从“爱心送考”到登山节”“文明出行”“1041旅行品牌”等品牌活动，超过十万人参与，持续举办超过10届。是河南省内唯一创收过亿的电台。';
 
