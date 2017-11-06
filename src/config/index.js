@@ -12,7 +12,7 @@ const CHANNEL_AUDIO_TEXT_1 = '河南教育广播【Up-radio1066】隶属于河�
 const CHANNEL_AUDIO_TEXT_2 = '在知识叠代爆发的年代，学习伴随终身，Up-Radio1066让你车上的时间不再无聊，用有趣的方式打开知识。随时打开1066，你能听到全国最红音频大v的有声知识；你能听到音乐和知识伴随，知识从此不再枯燥；你能听到本土最具知识的牛人分享；你能听到最新潮的学习风尚。';
 
 //two
-const CHANNEL_VIDEO = 'http://hndt.com/fm/1066/201708/07/1897792/res/vk2yJveQ.mp4';
+const CHANNEL_VIDEO = 'http://hndt.com/h5/shows/08/videos/1.mp4';
 
 const CHANNEL_VIDEO_TEXT_1 = '集纳全国最红知识音频IP。罗振宇、梁宏达、吴晓波、高晓松、李翔、许树泽、富赜、老沈，共在1066发声，全天十五档知识单元与精美音乐混排轮盘，随时打开1066，随时有知识和音乐伴随。';
 
