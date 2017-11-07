@@ -1,6 +1,6 @@
 //配置文件
 //channelLogo
-const logoIndex = 1
+const logoIndex = 11
 const CHANNEL_LOGO = require(`../logo/${logoIndex}.png`)
     //封面
 const CHANNEL_TITLE = '网络广播';
@@ -12,38 +12,62 @@ const CHANNEL_AUDIO_TEXT_1 = '“网络广播”是传统广播服务及品牌�
 const CHANNEL_AUDIO_TEXT_2 = '目前我中心拥有互联网电台10套，日均收听量数十万人次，入驻蜻蜓、 喜马拉雅、 多听、 优听、 中国广播等音频平台， 与小米盒子、 主流智能车载终端保持深度合作， 多平台全网播发。';
 
 //two
-const CHANNEL_VIDEO = 'http://www.hndt.com/fm/1074/201708/07/1897788/res/u9M50TSH.mp4';
-
-const CHANNEL_VIDEO_TEXT_1 = '10多年来，农村广播紧扣“三农”需求，强化“农”字招牌，成为城乡农民生产生活的好帮手、好顾问、好参谋，为推动我省农业发展、社会和谐、建设美丽富裕新农村做出应有贡献。';
-
+const CHANNEL_PICS_0 = [{
+        text: '架起警民沟通的桥梁',
+        url: 'http://www.hndt.com/h5/shows/11/imgs/1.png'
+    },
+    {
+        text: '“天籁936”是河南省第一家以播出古典音乐为主的专业调频广播。',
+        url: 'http://www.hndt.com/h5/shows/11/imgs/2.png'
+    },
+    {
+        text: '爵士音乐的俱乐部，陪你度过慵懒的午后时光。',
+        url: 'http://www.hndt.com/h5/shows/11/imgs/3.png'
+    }
+]
 
 //three
 const CHANNEL_PICS = [{
-        text: '助力精准扶贫 专家服务团走进“第一书记”扶贫村',
-        url: 'http://www.hndt.com/fm/1074/201710/27/1913891/res/hiKYbqK9.jpg'
+        text: '爱摇人群的时尚爬，让你体验重金属嗓音带来声音快感。',
+        url: 'http://www.hndt.com/h5/shows/11/imgs/4.png'
     },
     {
-        text: '栾川竟藏着这种好东西，十四国总理都为它点赞！',
-        url: 'http://www.hndt.com/fm/1074/201710/30/1914192/res/EW8lQhGx.jpg'
+        text: '悠扬的歌声，动听的六弦琴给你别具一格的清新、畅快',
+        url: 'http://www.hndt.com/h5/shows/11/imgs/5.png'
     },
     {
-        text: '第一书记富民成果走进雏牧香 河南广电扶贫再发力',
-        url: 'http://www.hndt.com/fm/1074/201710/16/1911320/res/1aZCF3fB.jpg'
+        text: '70后男性的火柴盒，它陪你欣赏经典的音乐，一起重温青春的记忆',
+        url: 'http://www.hndt.com/h5/shows/11/imgs/6.png'
     }
 ]
 
 //four
 const CHANNEL_PICS_2 = [{
-        text: '《打工直通车》洛宁就业服务中心启动',
-        url: 'http://www.hndt.com/fm/1074/201709/14/1905363/res/Hj92Xm6P.jpg'
+        text: '80后男人的聚集地，我们一起选择高品质、懂生活的声音。',
+        url: 'http://www.hndt.com/h5/shows/11/imgs/7.png'
     },
     {
-        text: '河南广电联手三甲医院助力医疗扶贫 免费治疗患者出院',
-        url: 'http://www.hndt.com/fm/1074/201708/31/1902584/res/DOrUk7XF.jpg'
+        text: '90后男生的生活玩伴，它陪你一起感受生命的朝气蓬勃、青春的逆反孤单',
+        url: 'http://www.hndt.com/h5/shows/11/imgs/8.png'
     },
     {
-        text: '中国·哈密“甜蜜之旅”第十四届哈密瓜节开幕',
-        url: 'http://www.hndt.com/fm/1074/201708/14/1898815/res/MyizLTDb.jpg'
+        text: '高品质音乐的收纳箱，在这里，让心灵宁静而又充满冒险的勇气',
+        url: 'http://www.hndt.com/h5/shows/11/imgs/9.png'
+    }
+]
+
+//five
+const CHANNEL_PICS_3 = [{
+        text: '中国古典音乐的欢乐场，古筝、琵琶、扬琴、二胡等民族传统乐器，让你魂牵梦萦。',
+        url: 'http://www.hndt.com/h5/shows/11/imgs/10.png'
+    },
+    {
+        text: '河南戏曲网络广播',
+        url: 'http://www.hndt.com/h5/shows/11/imgs/11.png'
+    },
+    {
+        text: '三千繁华谁阅尽，易象书场说古今。',
+        url: 'http://www.hndt.com/h5/shows/11/imgs/12.png'
     }
 ]
 
@@ -55,6 +79,8 @@ export {
     CHANNEL_AUDIO_TEXT_2,
     CHANNEL_VIDEO,
     CHANNEL_VIDEO_TEXT_1,
+    CHANNEL_PICS_0,
     CHANNEL_PICS,
-    CHANNEL_PICS_2
+    CHANNEL_PICS_2,
+    CHANNEL_PICS_3
 }

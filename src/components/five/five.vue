@@ -44,7 +44,7 @@
 import wxLogo from 'base/logo/logo'
 import WxTitle from 'base/title/title.vue'
 
-import { CHANNEL_PICS_0 } from 'config/index'
+import { CHANNEL_PICS_3 } from 'config/index'
 
 const titleUrl = require('./active.png') 
 
@@ -57,7 +57,7 @@ export default {
     data () {
         return {
             titleUrl:titleUrl,
-            channelPics:CHANNEL_PICS_0
+            channelPics:CHANNEL_PICS_3
         }
     }
 }

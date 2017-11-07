@@ -18,6 +18,9 @@
                 <four></four>
             </div>
             <div class="swiper-slide">
+                <five></five>
+            </div>
+            <div class="swiper-slide">
                 <end @goToLink="goToLink"></end>
             </div>
             <div class="swiper-slide">
@@ -38,6 +41,7 @@ import One from 'components/one/one'
 import Two from 'components/two/two'
 import Three from 'components/three/three'
 import Four from 'components/four/four'
+import Five from 'components/five/five'
 import End from 'components/end/end'
 import EndList from 'components/endList/endList'
 
@@ -50,6 +54,7 @@ export default {
       Two,
       Three,
       Four,
+      Five,
       End,
       EndList
   },
