@@ -12,7 +12,7 @@ const CHANNEL_AUDIO_TEXT_1 = '河南广播网是河南广播电视台广播业�
 const CHANNEL_AUDIO_TEXT_2 = '河南广播网手机版、河南广播官方微博、河南广播微信公众号、河南广播小程序，多种传播渠道让您随时随地看新闻、听广播！';
 
 //two
-const CHANNEL_VIDEO = 'http://hndt.com/h5/shows/10/videos/1.mp4';
+const CHANNEL_VIDEO = 'http://hndt.com/h5/shows/12/videos/1.mp4';
 
 const CHANNEL_VIDEO_TEXT_1 = '自主研发的河南广播APP，为广大用户提供河南本地广播节目的网络直播、节目点播、直播互动、主持人播客、社区圈层等服务。';
 
@@ -41,8 +41,8 @@ const CHANNEL_PICS_2 = [{
         url: 'http://www.hndt.com/h5/shows/12/imgs/5.png'
     },
     {
-        text: '',
-        url: 'http://www.hndt.com/h5/shows/12/imgs/1.png'
+        text: '河南广播网现场直播“中原乐龄展风采 喜迎党的十九大”活动',
+        url: 'http://www.hndt.com/h5/shows/12/imgs/6.png'
     }
 ]
 

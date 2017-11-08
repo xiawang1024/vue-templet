@@ -101,7 +101,7 @@ export default {
     fullpage()
     .list-wrap
         position absolute
-        top 140px
+        top 130px
         left 78px
         width 484px
         display flex
@@ -117,7 +117,7 @@ export default {
                 height 100%
     .qr-wrap
         position absolute
-        bottom 80px 
+        bottom 60px 
         left 235px
         width 170px
         height 230px
