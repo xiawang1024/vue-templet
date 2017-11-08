@@ -78,6 +78,7 @@ export default {
 <style lang="stylus" scoped>
 @import '~common/stylus/mixin.styl'
 .player
+    display none
     width 100%
     #wx-audio
         display none 
