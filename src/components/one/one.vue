@@ -62,7 +62,7 @@ export default {
         width 480px
     .body
         position absolute
-        top 330px
+        top 260px
         left 10%
         width 80%
         // height 600px
