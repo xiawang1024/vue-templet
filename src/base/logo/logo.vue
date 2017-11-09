@@ -1,6 +1,6 @@
 <template>
     <div class="logo-wrap">
-        <div class="logo ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+        <div class="logo animated bounceInLeft" ></div>
         <div v-show="isShowChannelLogo" class="channel_logo ani" :style="logoStyleObj" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
     </div>
 </template>

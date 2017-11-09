@@ -1,14 +1,14 @@
 <template>
     <div class="end-list">
         <wx-logo :isShowChannelLogo="false"></wx-logo>
-        <div class="list-wrap ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+        <div class="list-wrap animated bounceIn">
             <div class="list" v-for="(item,index) in imgUrls" v-bind:key="index" @click="openLink(item.link_url)">
                 <img :src="item.icon_url" alt="" class="img">
             </div>
         </div>
         <div class="qr-wrap">
-			<img class="qr-app ani" src="../imgs/qr-app.png" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="0s" />
-			<div class="logo-app ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1.25s" swiper-animate-delay="0s"></div>
+			<img class="qr-app animated bounceInUp" src="../imgs/qr-app.png" />
+			<div class="logo-app animated bounceInUp" ></div>
 		</div>
     </div>
 </template>
@@ -97,6 +97,7 @@ export default {
 
 <style lang="stylus" scoped>
 @import '~common/stylus/mixin.styl'
+@keyframe
 .end-list
     fullpage()
     width 640px
