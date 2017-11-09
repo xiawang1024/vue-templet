@@ -1,8 +1,8 @@
 window.onload = function() {
-    var TITLE = '2018河南广播电视台广播品牌推介会'
+    var TITLE = '2018河南广播媒体资源展示'
     var LINK = 'http://hndt.com/h5/shows/03/index.html'
     var IMGURL = 'http://www.hndt.com/h5/shows/sharelogos/3.png'
-    var DESC = '2018河南广播电视台广播品牌推介会'
+    var DESC = '2018河南广播媒体资源展示'
 
     //微信配置
     var href = window.location.href
